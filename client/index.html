@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Chat</title>
+        <link href="styles/style.css" rel="stylesheet">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');</style>
+        <link rel="shortcut icon" href="#">
+    </head>
+
+    <body>
+        <div id="main-wrapper">
+            <h1 id="welcome">Eric's Chatroom</h1> 
+            
+            <ul id="messages">
+            </ul>
+
+            <form id="input-form">
+                <input id="input" placeholder="Message..." autocomplete="off"></input>
+                <button id="send">Send</button>
+            <form>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="src/client.js"></script>
+    </body>
+</html>

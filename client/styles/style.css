@@ -1,0 +1,87 @@
+html {
+    background: #e0e4e7;
+}
+
+* {
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: #131313;
+    box-sizing: border-box;
+}
+
+#welcome {
+    background: #5ac3ff;
+    color: white;
+    width: 480px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 30px auto 0px;
+    padding: 16px 0px 16px 0px;
+}
+
+#messages {
+    background: #ffffff;
+    width: 480px;
+    height: 420px;
+    max-height: 420px;
+    overflow-y: scroll;
+    word-break: break-word;
+    margin: 0 auto 10px auto;
+    list-style-type: none;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-track {
+    background: #f3f3f3;
+}
+::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-left: 2px #f3f3f3 solid;
+    border-right: 2px #f3f3f3 solid;
+}
+
+li {
+    padding: 6px 4px 6px 4px;
+}
+
+#input-form {
+    text-align: center;
+}
+
+#input {
+    background: #ffffff;
+    border: none;
+    outline: none;
+    width: 418px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: left;
+    padding: 6px 8px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#send {
+    background: #5ac3ff;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 8px;
+    font-size: 16px;
+}
+
+#send:hover {
+    background: #d3d3d3;
+}
+
+#send:active {
+    background: #bebebe;
+}
